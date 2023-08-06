@@ -1,4 +1,4 @@
-# 🎭 demo.playwright
+# 🎭 demo.playwright amith
 
 This repo is used to demo various testing scenarios with [Playwright](https://playwright.dev/) 🎭, using the official test-runner and scripts authored in TypeScript.
 
