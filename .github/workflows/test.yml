@@ -528,8 +528,8 @@ jobs:
         with:
           external_repository: amithmahi/testpw
           publish_branch: main
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ${{steps.download.outputs.download-path}}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
           keep_files: true
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
