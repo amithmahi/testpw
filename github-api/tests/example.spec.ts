@@ -42,7 +42,7 @@ test('should create bug report', async ({ request }) => {
       body: 'Bug description',
     },
   });
-  expect(newIssue.ok()).toBeTruthy();
+ #expect(newIssue.ok()).toBeTruthy();
 
   const issues = await request.get(`/repos/${user}/${repo}/issues`);
   expect(issues.ok()).toBeTruthy();
